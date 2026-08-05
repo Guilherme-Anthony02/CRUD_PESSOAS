@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 
 import { Cadastro } from './cadastro/cadastro';
-import { HomeComponent } from './component/home-component/home-component';
+import { HomeComponent } from './home/component/component';
 
 export const routes: Routes = [
     {

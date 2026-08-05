@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { PessoaService } from '../services/pessoa-service';
 
 @Component({
   selector: 'app-cadastro',
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './cadastro.html',
   styleUrl: './cadastro.css',
 })
@@ -12,6 +13,15 @@ export class Cadastro {
   email = ''
   cpf = ''
   dataNascimento = ''
+  uf = ''
+  cidade = ''
+  sexo = ''
+  logradouro = ''
+  numResidencia = ''
+  complementoEnd = ''
+  bairro = ''
+  localidade = ''
+  senha = ''
 
   constructor(private pessoaService: PessoaService) { }
 

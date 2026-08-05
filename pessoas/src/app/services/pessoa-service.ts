@@ -6,15 +6,14 @@ import { Pessoa } from '../models/pessoa';
 })
 export class PessoaService {
 
-  private pessoas: Pessoa[] = []
+  private pessoas : Pessoa[] = []
 
-  adicionar(pessoa: Pessoa) {
+  adicionar(pessoa: Pessoa){
     this.pessoas.push(pessoa)
   }
 
-  listar() {
+  listar(){
     return this.pessoas
   }
 
 }
-
