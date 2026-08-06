@@ -12,7 +12,7 @@ export class Lista {
 
   constructor(private pessoaService: PessoaService){}
 
-  listar(){
+  listaPessoa(){
     return this.pessoaService.listar()
   }
 }
