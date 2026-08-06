@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 
 import { Cadastro } from './cadastro/cadastro';
+import { Lista } from './lista/lista';
 import { HomeComponent } from './home/component/component';
 
 export const routes: Routes = [
@@ -16,5 +17,10 @@ export const routes: Routes = [
     {
         path: 'cadastro',
         component: Cadastro
-    }
+    },
+    {
+        path: 'lista',
+        component: Lista
+    },
+
 ];

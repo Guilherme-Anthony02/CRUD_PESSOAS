@@ -22,7 +22,7 @@ h1 {
 
 .div-item-pessoa {
     width: 100%;
-    height: 100px;
+    min-height: 100px;
     margin: 20px 0px;
     padding: 10px;
     justify-content: space-between;
@@ -49,7 +49,6 @@ h1 {
     padding: 8px 0px;
 }
 
-/*FORMATAÇÃO DOS BOTÕES*/
 a:link,
 a:visited,
 a:active {
@@ -68,10 +67,9 @@ a:hover {
 }
 
 .lnk-editar {
-    background-color: var(--primaria);
-    color: var(--branca);
+    background-color: var(--botao01);
 }
 
 .lnk-excluir {
-    background-color: var(--cor-botao01);
+    background-color: var(--botao02);
 }
