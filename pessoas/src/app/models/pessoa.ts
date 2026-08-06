@@ -1,7 +1,11 @@
 export class Pessoa {
-    id? : number
+    id?: number
     nome?: string
     email?: string
     cpf?: string
     dataNascimento?: string
+    uf?: string
+    cidade?: string
+    sexo?: string
+    senha?: string
 }

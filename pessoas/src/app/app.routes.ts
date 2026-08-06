@@ -19,8 +19,11 @@ export const routes: Routes = [
         component: Cadastro
     },
     {
+        path: 'cadastro/:id',
+        component: Cadastro
+    },
+    {
         path: 'lista',
         component: Lista
     },
-
 ];

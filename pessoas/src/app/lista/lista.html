@@ -8,7 +8,7 @@
                     {{elem.id}} - {{elem.nome}} - {{elem.cpf}} - {{elem.dataNascimento}} - {{elem.email}} 
                 </span>
                 <span class="btns-lista">
-                    <a href="#" class="lnk-editar"> Editar </a>
+                    <a [routerLink]="['/cadastro', elem.id]" class="lnk-editar"> Editar </a>
                     <a href="#" class="lnk-excluir"> Excluir </a>
                 </span>
             </div>

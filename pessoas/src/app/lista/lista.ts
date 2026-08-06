@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { PessoaService } from '../services/pessoa-service';
 
 
 @Component({
   selector: 'app-lista',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './lista.html',
   styleUrl: './lista.css',
 })
